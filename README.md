@@ -11,14 +11,38 @@ Every network has a decicated .py file. Inside every file, there is a "train" an
 1. **MLP (Multi-Layer Perceptron) for Position Prediction**  
    - Predicts the final object position `(x, y)` given the initial image and action.  
    - Uses a **fully connected network (MLP)** for regression.
+ 
+Loss graph:
+
+![DNN](https://github.com/user-attachments/assets/fa221308-e556-4008-b668-e31799ace0c3)
 
 2. **CNN (Convolutional Neural Network) for Position Prediction**  
    - Predicts the final object position `(x, y)`, similar to Task 1.  
    - Uses a **CNN encoder** to extract features before passing them to an MLP.
+  
+Loss graph:
+
+![cnn](https://github.com/user-attachments/assets/14b7ce85-ddf5-441b-aa98-b444728f45ec)
 
 3. **CNN for Image Reconstruction**  
    - Predicts the **final state image** given the initial image and action.  
    - Uses a **CNN encoder-decoder architecture** for image-to-image translation.
+  
+Loss graph:
+
+![reconstructor_loss_graph](https://github.com/user-attachments/assets/b64ee116-d8e9-4282-8713-0c27ef46e964)
+
+
+Target Output Example:
+
+![output_target](https://github.com/user-attachments/assets/3146e1ea-acd8-40a5-85c5-f594f38c3069)
+
+Output Example:
+
+![myplot](https://github.com/user-attachments/assets/fb354551-b3c4-44ef-ad7c-28472eda1138)
+
+
+
 
 ## Repository Structure
 
