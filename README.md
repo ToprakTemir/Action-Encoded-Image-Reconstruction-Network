@@ -1,4 +1,5 @@
  # Cmpe591 Deep Learning for Robotics Project 1: 
+Drive link for network weights as they are too large to include in the git repo: https://drive.google.com/drive/folders/1z2JmUylu1evV_xS4hHgZiqQu_Ooa80Hx
 
 ## Overview
 This project consists of three tasks aimed at training neural networks to predict the effect of a robot's actions on an object placed on a table. The dataset includes:
