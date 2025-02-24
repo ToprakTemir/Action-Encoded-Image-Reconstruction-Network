@@ -1,4 +1,4 @@
- # Homework 1: Action-Based Object Prediction
+ # Cmpe591 Deep Learning for Robotics Project 1: 
 
 ## Overview
 This project consists of three tasks aimed at training neural networks to predict the effect of a robot's actions on an object placed on a table. The dataset includes:
